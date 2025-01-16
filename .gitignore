@@ -126,7 +126,7 @@ celerybeat.pid
 
 # SageMath parsed files
 *.sage.py
-
+artifact
 # Environments
 .env
 .venv
@@ -169,3 +169,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+mongodb
+src/configuration/azure_credentials.py
